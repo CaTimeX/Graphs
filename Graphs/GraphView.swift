@@ -9,7 +9,7 @@
 import UIKit
 
 open class GraphView<T: Hashable, U: NumericType>: UIView {
-    
+   
     open var graph: Graph<T, U>? {
         didSet {
             self.reloadData()
